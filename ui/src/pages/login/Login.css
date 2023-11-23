@@ -1,0 +1,114 @@
+.body {
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* overflow: hidden; */
+  }
+
+  .mainlogin {
+    /* border: 2px solid rgb(182, 22, 22); */
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .imageBox{
+    /* border: 2px solid rgb(179, 11, 11); */
+    width: 50%;
+    height: 100%;
+  }
+
+  .loginImage{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .signIn{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+    align-items: center; 
+  }
+
+
+.signInSection{
+  width: 82%;
+  height: 30%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+  top: 10%;
+  margin-top: 50px;
+  grid-gap: 10px;
+    
+}
+
+  .font{
+    font-weight: 500;
+    font-family: Andale Mono, monospace;
+    font-size: 18px;
+    color: #00429b
+    /* height: 30px; */
+  }
+
+
+  .signInButton{
+    height: 55px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0px 0px 18px -2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  place-content: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  align-items: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none;
+   border:none;
+   outline: none;
+   
+  }
+
+.gIcon{
+  margin-left: 20px;
+}
+
+.typo{
+    /* font-feature-settings: ; */
+    color: grey;
+    font-size: 19px;
+}
+
+.signInButton:hover {
+    background-color: rgba(130, 130, 134, 0.1);
+  }
+
+  .signInButton:active{
+    background-color:rgba(130, 130, 134, 0.1);
+  }
+  
+
+  .logo{
+    height: 120px;
+    margin-top: 60px;
+  }

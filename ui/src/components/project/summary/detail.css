@@ -1,0 +1,50 @@
+.projectBox {
+    width: 85%;
+    height: 90%;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hide the main scrollbar */
+    scrollbar-width: thin; /* For Firefox */
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: transparent; /* Make the scrollbar thumb transparent */
+      border-radius: 6px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: transparent; /* Make the scrollbar track transparent */
+    }
+  
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+.title{
+    margin: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    font-family: sans-serif;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.editIcon{
+    width: 25px;
+    height: 25px;
+    justify-content: flex-end;
+    cursor: pointer;
+}

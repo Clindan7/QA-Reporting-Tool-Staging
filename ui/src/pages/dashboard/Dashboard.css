@@ -1,0 +1,147 @@
+
+/*Card content styles */
+.card_style {
+  width: 30%;
+  height: 230px;
+  border-radius: 15px;
+  padding: 0px;
+  margin: 10px;
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.card_title_style {
+  font-size: '28px';
+  font-weight: 600;
+  color: #123a77;
+  text-align: center;
+
+}
+
+/*Search box and filter styles */
+.form-field {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.search-box {
+  position: relative;
+  padding: 8px;
+  background-color: #FFF;
+  border: none;
+  color: #0A086F;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 50%;
+}
+
+.search-box:focus-visible,
+:focus {
+  outline: none;
+}
+
+.filter-box {
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  background-color: #FFF;
+  border: none;
+  color: #0A086F;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+.icon-span {
+  position: relative;
+  background: #fff;
+  border: none;
+  height: 40px;
+}
+
+.icon {
+  position: absolute;
+  right: 7px;
+  top: 12px;
+  font-size: 18px;
+  color: #626262;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.pad-left {
+  padding-left: 15px;
+}
+
+.no_data {
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(221, 220, 220);
+}
+
+.tile-style {
+  width: 100%;
+  max-height: 480px;
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  overflow-y: hidden; /* Hide the main scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent; /* Make the scrollbar thumb transparent */
+    border-radius: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent; /* Make the scrollbar track transparent */
+  }
+
+  overflow-y: auto; 
+  overflow-x: auto; 
+}
+
+.dashBox {
+  margin-top: 1rem;
+  left:16%;
+  top:10%;
+  padding: 15px;
+  padding-left: 2%;
+  width: 80%;
+  height: 86%;
+  position: absolute;
+  border-radius: 8px;
+  background-color: #e1e8f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-filters{
+  display: flex;
+ width:100%;
+  gap: 20px;
+}
+
+.filter-size{
+  width: 20%;
+}
+.search-size{
+  width: 35%;
+}

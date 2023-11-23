@@ -1,0 +1,170 @@
+ .sidebar {
+    width: 13%;
+    height: 93%;
+    margin-top: 55px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    z-index: 500;
+}
+
+/* Navbar list */
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* Navbar list items */
+.navbar-item {
+    margin: 0;
+    padding: 10px;
+    background-color: #f2f6ff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    width: 90%;
+}
+
+/* Navbar links */
+.navbar-link {
+    text-decoration: none;
+    color: #0A086F;
+    font-size: 16px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.active-link{
+    color: #fff !important;
+}
+.active-bg{
+    background-color: #0A086F !important; 
+}
+
+/* Navbar icons */
+.navbar-icon {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+/* Change link color on hover */
+.navbar-link:hover {
+    color: #000;
+}
+
+
+/* Project list items */
+.project-item {
+    margin: 0;
+    padding: 5px;
+    background-color: #f2f6ff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    width:90%;
+}
+
+/* Project links */
+.project-link {
+    text-decoration: none;
+    color: #0A086F;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Project icons */
+.project-icon {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/* Change link color on hover */
+.project-link:hover {
+    color: #000;
+}
+
+/* Search box styles */
+.searchbox{
+    margin: 0;
+    padding: 5px;
+    background-color: #d6dff7;
+    border: #D3D3D3;
+    color: #0b0953;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    width: 80%;
+}
+
+.searchbox::placeholder {
+    color: #000;
+}
+
+
+.searchbox:focus-visible, :focus{
+    outline: none;
+}
+
+.form-field {
+    position: relative;
+    display: inline-block;
+  }
+
+  .icon-search {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    font-size: 18px;
+    color: #000000;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+  .iconspan{
+    position: relative;
+    background-color: #d6dff7 !important;
+    border: #d6dff7 !important;
+    height: 31px ;
+}
+
+  /* Logout button styles */
+  .btn-logout{
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-logout:hover{
+    cursor: pointer;
+  }
+
+  .logout{
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+  } 
+  .logout-icon {
+    font-size: 40px;
+    padding-right: 5px;
+    color: #06038B;
+}
+
+ .nav-projectlist{
+    padding-left: 5%;
+ } 
+
+ .search-width{
+    padding-left: 5%;
+ }

@@ -1,0 +1,121 @@
+
+.textField {
+      width: 60%;
+      font-size: 16px;
+      height: 50px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding-left: 10px;
+  }
+
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid;
+    border:"none"
+  }
+
+
+.formDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+
+.formLabel{
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.titleDiv {
+  height: 64px;
+  width: 100%;
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.modalTitle {
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.errors {
+  display: flex;
+  color: red;
+  margin-left: 42%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 20px;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+.button {
+  width: 150px;
+  background-color: #004869;
+  height: 45px;
+  display: grid;
+  place-content: center;
+  font-size: 18px;
+  color: white;
+  /* border-radius: 7px; */
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 35px;
+  margin-top: 10px;
+  border: none;
+}
+
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #004869;
+}
+
+
+.formDiv1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 140px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+
+.textField1{
+  width: 60%;
+  font-size: 16px;
+  height: 140px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+
+.formLabelRemark{
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.formLabelRemark::after{
+  content: "*";
+  color: red;
+}
+

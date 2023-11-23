@@ -1,0 +1,108 @@
+.mainBox {
+    width: 80%;
+    height: 72%;
+    top: 60%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Hide the main scrollbar */
+    scrollbar-width: thin; /* For Firefox */
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: transparent; /* Make the scrollbar thumb transparent */
+      border-radius: 6px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: transparent; /* Make the scrollbar track transparent */
+    }
+  
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+.top-right-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.radio-btns {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.ChartTbl{
+  width: 100%;
+  height: 75%;
+  margin-left: 7%;
+  text-align: center;
+}
+
+.styledtable1 {
+    width: 85%;
+    height: 75%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    position: absolute;
+    max-height: 75%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden; 
+    scrollbar-width: thin; 
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: transparent; 
+      border-radius: 6px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: transparent; 
+    }
+  
+    overflow-y: auto;
+}
+
+.styledtable1 tr{
+  height: 20px;
+}
+
+.styledtable1 th,
+.styledtable1 td {
+    border: 1px solid #5e5c5c;
+    padding: 8px;
+    text-align: center;
+}
+
+.styledtable1 td {
+font-family:  Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+
+.styledtable1 thead {
+    background-color: #b6dde7;
+    color: #000;
+}
+
+.noData{
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(221, 220, 220);
+}

@@ -1,0 +1,65 @@
+.mainBox {
+    width: 80%;
+    height: 72%;
+    top: 60%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+}
+
+.chart {
+    width: 100%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    display: flex;
+}
+
+.top-right-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.radio-btns {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.styledtable {
+    width: 15%;
+    height: 15%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.styledtable th,
+.styledtable td {
+    border: 1px solid #5a5a5a;
+    padding: 8px;
+    text-align: center;
+}
+
+.styledtable thead {
+    background-color: #b6dde7;
+    color: #000;
+}
+
+.sevTable{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    margin-top: 10px;
+}

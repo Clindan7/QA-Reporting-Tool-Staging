@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = .
+omit = test*,test/,test_main,test/*
+
+[report]
+omit = test*,test/,test_main,test/*

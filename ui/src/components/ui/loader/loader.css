@@ -1,0 +1,15 @@
+.loadingScreen{
+    z-index: 1200;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    opacity: 0.6;
+}

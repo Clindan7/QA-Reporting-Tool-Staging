@@ -1,0 +1,87 @@
+.top-right-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-right-button {
+    margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.radio-btns {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.btn-enter {
+    background-color: #0a53be;
+    color: #fff;
+    width: 22%;
+    font-size: 16px;
+    height: 40px;
+}
+.btn-enter1 {
+    background-color: #0a53be;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+}
+
+.btn-enter:hover {
+    background-color: #0A086F;
+    color: #fff;
+}
+
+.btn-enter1:hover {
+    background-color: #0A086F;
+    color: #fff;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.modal-content {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-style {
+    padding: 10px;
+    padding-bottom: 0px;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.styled-table thead {
+    background-color: #0E5278;
+    color: #fff;
+}
+
+.chartProgress {
+    width: 80% !important;
+    display: flex;
+    height: 80%;
+    position: fixed;
+    top: 10%;
+}

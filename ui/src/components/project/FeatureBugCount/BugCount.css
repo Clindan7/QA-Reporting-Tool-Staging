@@ -1,0 +1,21 @@
+.mainBox {
+    width: 80%;
+    height: 72%;
+    top: 60%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart {
+    width: 80%;
+    display: flex;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+}

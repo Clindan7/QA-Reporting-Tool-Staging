@@ -1,0 +1,89 @@
+.outerBox {
+    width: 98%;
+    height: 60vh;
+    top: 10%;
+    position: absolute;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 3px;
+    overflow: hidden;
+    scrollbar-width: thin;
+    /* For Firefox */
+
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: transparent;
+        /* Make the scrollbar thumb transparent */
+        border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        /* Make the scrollbar track transparent */
+    }
+
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.ag-theme-alpine {
+    --ag-borders: solid 1px;
+    --ag-column-border-style: dashed !important;
+}
+
+.grid-styl {
+    height: 95%;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    position: relative;
+    padding-right: 30px;
+}
+
+.btn-save {
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.pad-left {
+    padding-left: 2rem;
+}
+
+.warn-msg {
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.btn-font {
+    font-size: 14px;
+}
+
+/* Custom tooltip styles */
+.custom-tooltip {
+    height: auto;
+    width: 400px !important;
+    background-color:#d8d7d7;
+    position: absolute;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    white-space: normal;
+    word-break: break-word;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 9999999999;
+    bottom:-20% !important;
+  }
+  .custom-tooltip p{
+    margin: 5px;
+  }
+  

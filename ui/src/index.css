@@ -1,0 +1,13 @@
+:root{
+  overflow: hidden;
+}
+
+.main{
+  background-color: #f2f6ff;
+  padding-top: 4rem;
+  height: 110vh;
+}
+.backgrnd{
+  background-color: #f2f6ff;
+  padding-right: 0px !important;
+}

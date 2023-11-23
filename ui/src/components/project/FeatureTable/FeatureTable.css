@@ -1,0 +1,21 @@
+.mainBox{
+    width: 80%;
+    height: 72%;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    height: 70%;
+    width: 80%;
+    border: 1px solid rgb(211, 211, 211);
+    
+}
+
